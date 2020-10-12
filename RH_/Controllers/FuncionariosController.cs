@@ -154,5 +154,25 @@ namespace RH_.Controllers
             return View(await _context.Funcionarios.ToListAsync());
         }
 
+
+
+        public IActionResult Aniversario()
+        {
+            var Func = _context.Funcionarios.ToList();
+
+            var aniverFunc = _context.Funcionarios.Where(f => f.DataNascimento.Contains((char)DateTime.Now.Month));
+
+            if (Func == null)
+            {
+                return NotFound();
+            }
+
+            return View(Func);
+        }
+
+
+
+
+
     }
 }

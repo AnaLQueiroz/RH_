@@ -371,3 +371,4 @@ C:\Users\user\source\repos\RH__\RH_\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson
 C:\Users\user\source\repos\RH__\RH_\bin\Debug\netcoreapp3.1\ViaCep.dll
 C:\Users\user\source\repos\RH__\RH_\obj\Debug\netcoreapp3.1\RH_.csproj.CoreCompileInputs.cache
 C:\Users\user\source\repos\RH__\RH_\obj\Debug\netcoreapp3.1\RH_.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\source\repos\RH__\RH_\obj\Debug\netcoreapp3.1\Razor\Views\Funcionarios\Aniversario.cshtml.g.cs

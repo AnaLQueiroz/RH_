@@ -1,0 +1,42 @@
+﻿@model IEnumerable<RH_.Models.Funcionarios>
+
+@{
+    ViewData["Title"] = "List";
+}
+
+<h1>Aniversariantes do Mês</h1>
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+           <th>
+                @Html.DisplayNameFor(model => model.MatriculaFuncionario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataNascimento)
+            </th>           
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MatriculaFuncionario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataNascimento)
+            </td>          
+
+        </tr>
+}
+    </tbody>
+</table>
