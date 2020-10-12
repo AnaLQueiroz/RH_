@@ -64,3 +64,16 @@ C:\Users\user\source\repos\RH_\RH_\obj\Debug\netcoreapp3.1\RH_.csproj.CopyComple
 C:\Users\user\source\repos\RH_\RH_\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\user\source\repos\RH_\RH_\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.Design.dll
 C:\Users\user\source\repos\RH_\RH_\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
+C:\Users\user\source\repos\RH_\RH_\bin\Debug\netcoreapp3.1\RH_.deps.json
+C:\Users\user\source\repos\RH_\RH_\bin\Debug\netcoreapp3.1\RH_.runtimeconfig.json
+C:\Users\user\source\repos\RH_\RH_\bin\Debug\netcoreapp3.1\RH_.runtimeconfig.dev.json
+C:\Users\user\source\repos\RH_\RH_\bin\Debug\netcoreapp3.1\RH_.dll
+C:\Users\user\source\repos\RH_\RH_\bin\Debug\netcoreapp3.1\RH_.pdb
+C:\Users\user\source\repos\RH_\RH_\bin\Debug\netcoreapp3.1\RH_.Views.dll
+C:\Users\user\source\repos\RH_\RH_\bin\Debug\netcoreapp3.1\RH_.Views.pdb
+C:\Users\user\source\repos\RH_\RH_\obj\Debug\netcoreapp3.1\RH_.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\RH_\RH_\obj\Debug\netcoreapp3.1\RH_.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\source\repos\RH_\RH_\obj\Debug\netcoreapp3.1\RH_.Views.pdb
+C:\Users\user\source\repos\RH_\RH_\obj\Debug\netcoreapp3.1\RH_.dll
+C:\Users\user\source\repos\RH_\RH_\obj\Debug\netcoreapp3.1\RH_.pdb
+C:\Users\user\source\repos\RH_\RH_\obj\Debug\netcoreapp3.1\RH_.genruntimeconfig.cache
