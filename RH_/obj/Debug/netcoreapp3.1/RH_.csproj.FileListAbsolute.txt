@@ -175,3 +175,8 @@ C:\Users\user\source\repos\RH_\RH_\obj\Debug\netcoreapp3.1\Razor\Views\Funcionar
 C:\Users\user\source\repos\RH_\RH_\obj\Debug\netcoreapp3.1\Razor\Views\Funcionarios\Details.cshtml.g.cs
 C:\Users\user\source\repos\RH_\RH_\obj\Debug\netcoreapp3.1\Razor\Views\Funcionarios\Edit.cshtml.g.cs
 C:\Users\user\source\repos\RH_\RH_\obj\Debug\netcoreapp3.1\Razor\Views\Funcionarios\Index.cshtml.g.cs
+C:\Users\user\source\repos\RH_\RH_\obj\Debug\netcoreapp3.1\Razor\Views\Dependentes\Create.cshtml.g.cs
+C:\Users\user\source\repos\RH_\RH_\obj\Debug\netcoreapp3.1\Razor\Views\Dependentes\Delete.cshtml.g.cs
+C:\Users\user\source\repos\RH_\RH_\obj\Debug\netcoreapp3.1\Razor\Views\Dependentes\Details.cshtml.g.cs
+C:\Users\user\source\repos\RH_\RH_\obj\Debug\netcoreapp3.1\Razor\Views\Dependentes\Edit.cshtml.g.cs
+C:\Users\user\source\repos\RH_\RH_\obj\Debug\netcoreapp3.1\Razor\Views\Dependentes\Index.cshtml.g.cs

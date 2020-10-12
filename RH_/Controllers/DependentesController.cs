@@ -47,7 +47,7 @@ namespace RH_.Controllers
         // GET: Dependentes/Create
         public IActionResult Create()
         {
-            ViewData["MatriculaFuncionario"] = new SelectList(_context.Funcionarios, "MatriculaFuncionario", "Bairro");
+            ViewData["MatriculaFuncionario"] = new SelectList(_context.Funcionarios, "MatriculaFuncionario","MatriculaFuncionario");// "Bairro"
             return View();
         }
 
@@ -64,7 +64,8 @@ namespace RH_.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["MatriculaFuncionario"] = new SelectList(_context.Funcionarios, "MatriculaFuncionario", "Bairro", dependentes.MatriculaFuncionario);
+            ViewData["MatriculaFuncionario"] = new SelectList(_context.Funcionarios, "MatriculaFuncionario", "MatriculaFuncionario", dependentes.MatriculaFuncionario);// "Bairro"
+            return View();
             return View(dependentes);
         }
 
@@ -81,7 +82,7 @@ namespace RH_.Controllers
             {
                 return NotFound();
             }
-            ViewData["MatriculaFuncionario"] = new SelectList(_context.Funcionarios, "MatriculaFuncionario", "Bairro", dependentes.MatriculaFuncionario);
+            ViewData["MatriculaFuncionario"] = new SelectList(_context.Funcionarios, "MatriculaFuncionario", "MatriculaFuncionario", dependentes.MatriculaFuncionario);// "Bairro"
             return View(dependentes);
         }
 
@@ -117,7 +118,7 @@ namespace RH_.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["MatriculaFuncionario"] = new SelectList(_context.Funcionarios, "MatriculaFuncionario", "Bairro", dependentes.MatriculaFuncionario);
+            ViewData["MatriculaFuncionario"] = new SelectList(_context.Funcionarios, "MatriculaFuncionario", "MatriculaFuncionario", dependentes.MatriculaFuncionario);//"Bairro"
             return View(dependentes);
         }
 
