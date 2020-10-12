@@ -168,8 +168,6 @@ C:\Users\user\source\repos\RH_\RH_\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnal
 C:\Users\user\source\repos\RH_\RH_\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\user\source\repos\RH_\RH_\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\user\source\repos\RH_\RH_\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\user\source\repos\RH_\RH_\obj\Debug\netcoreapp3.1\RH_.csproj.CoreCompileInputs.cache
-C:\Users\user\source\repos\RH_\RH_\obj\Debug\netcoreapp3.1\RH_.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\user\source\repos\RH_\RH_\obj\Debug\netcoreapp3.1\Razor\Views\Funcionarios\Create.cshtml.g.cs
 C:\Users\user\source\repos\RH_\RH_\obj\Debug\netcoreapp3.1\Razor\Views\Funcionarios\Delete.cshtml.g.cs
 C:\Users\user\source\repos\RH_\RH_\obj\Debug\netcoreapp3.1\Razor\Views\Funcionarios\Details.cshtml.g.cs
@@ -180,3 +178,8 @@ C:\Users\user\source\repos\RH_\RH_\obj\Debug\netcoreapp3.1\Razor\Views\Dependent
 C:\Users\user\source\repos\RH_\RH_\obj\Debug\netcoreapp3.1\Razor\Views\Dependentes\Details.cshtml.g.cs
 C:\Users\user\source\repos\RH_\RH_\obj\Debug\netcoreapp3.1\Razor\Views\Dependentes\Edit.cshtml.g.cs
 C:\Users\user\source\repos\RH_\RH_\obj\Debug\netcoreapp3.1\Razor\Views\Dependentes\Index.cshtml.g.cs
+C:\Users\user\source\repos\RH_\RH_\obj\Debug\netcoreapp3.1\Razor\Views\Funcionarios\List.cshtml.g.cs
+C:\Users\user\source\repos\RH_\RH_\bin\Debug\netcoreapp3.1\AngleSharp.dll
+C:\Users\user\source\repos\RH_\RH_\bin\Debug\netcoreapp3.1\Correios.NET.dll
+C:\Users\user\source\repos\RH_\RH_\obj\Debug\netcoreapp3.1\RH_.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\RH_\RH_\obj\Debug\netcoreapp3.1\RH_.MvcApplicationPartsAssemblyInfo.cache

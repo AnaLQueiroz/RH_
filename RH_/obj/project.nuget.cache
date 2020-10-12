@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "meXrDVuyh/UAcijZpK5V3sh5NjRblYNFVmvWRIUTjee4t2BNZ1szoG+PG8Y2k0mhSddbHKNl9xLGrRF2Xbs6eA==",
+  "dgSpecHash": "+srZkLTd3xYI3lanXQG3dbwlhYBnoVPopdv4VN8dZQciuNxLkQeKbDucasS2zj9Lh1aMOya1dP0xvxNT9N++gA==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\source\\repos\\RH_\\RH_\\RH_.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\anglesharp\\0.14.0\\anglesharp.0.14.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\correios.net\\1.1.2\\correios.net.1.1.2.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",

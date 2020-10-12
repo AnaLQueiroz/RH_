@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v3.1": {
       "RH_/1.0.0": {
         "dependencies": {
+          "Correios.NET": "1.1.2",
           "Microsoft.EntityFrameworkCore.Design": "3.1.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.8",
           "Microsoft.EntityFrameworkCore.SqlServer.Design": "1.1.6",
@@ -304,6 +305,34 @@
         },
         "compile": {
           "RH_.dll": {}
+        }
+      },
+      "AngleSharp/0.14.0": {
+        "dependencies": {
+          "System.Text.Encoding.CodePages": "4.5.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AngleSharp.dll": {
+            "assemblyVersion": "0.14.0.0",
+            "fileVersion": "0.14.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/AngleSharp.dll": {}
+        }
+      },
+      "Correios.NET/1.1.2": {
+        "dependencies": {
+          "AngleSharp": "0.14.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Correios.NET.dll": {
+            "assemblyVersion": "1.1.2.0",
+            "fileVersion": "1.1.2.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Correios.NET.dll": {}
         }
       },
       "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
@@ -4032,6 +4061,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AngleSharp/0.14.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-34w9I7nyszfEYBY8g7T3B0AtWlOivNh+QoWc3KECRwbmcNyqWmb4huihtmpH2Ds7rIRRHMMPv9yfPBxxjBn03g==",
+      "path": "anglesharp/0.14.0",
+      "hashPath": "anglesharp.0.14.0.nupkg.sha512"
+    },
+    "Correios.NET/1.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VckJ3WDjlqtqFF2ZQpoMr0smkx9J5oBcavF6LjzIVxbJUarqc4jz5dkxH7/kFlWsjuQOo+gLG6uqtWpHM9xaEQ==",
+      "path": "correios.net/1.1.2",
+      "hashPath": "correios.net.1.1.2.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
       "type": "package",
