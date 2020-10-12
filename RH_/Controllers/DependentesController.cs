@@ -65,7 +65,7 @@ namespace RH_.Controllers
                 return RedirectToAction(nameof(Index));
             }
             ViewData["MatriculaFuncionario"] = new SelectList(_context.Funcionarios, "MatriculaFuncionario", "MatriculaFuncionario", dependentes.MatriculaFuncionario);// "Bairro"
-            return View();
+            //return View();
             return View(dependentes);
         }
 
