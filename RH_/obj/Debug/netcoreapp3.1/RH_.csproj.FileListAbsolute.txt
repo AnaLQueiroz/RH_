@@ -170,3 +170,8 @@ C:\Users\user\source\repos\RH_\RH_\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.Cod
 C:\Users\user\source\repos\RH_\RH_\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\user\source\repos\RH_\RH_\obj\Debug\netcoreapp3.1\RH_.csproj.CoreCompileInputs.cache
 C:\Users\user\source\repos\RH_\RH_\obj\Debug\netcoreapp3.1\RH_.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\source\repos\RH_\RH_\obj\Debug\netcoreapp3.1\Razor\Views\Funcionarios\Create.cshtml.g.cs
+C:\Users\user\source\repos\RH_\RH_\obj\Debug\netcoreapp3.1\Razor\Views\Funcionarios\Delete.cshtml.g.cs
+C:\Users\user\source\repos\RH_\RH_\obj\Debug\netcoreapp3.1\Razor\Views\Funcionarios\Details.cshtml.g.cs
+C:\Users\user\source\repos\RH_\RH_\obj\Debug\netcoreapp3.1\Razor\Views\Funcionarios\Edit.cshtml.g.cs
+C:\Users\user\source\repos\RH_\RH_\obj\Debug\netcoreapp3.1\Razor\Views\Funcionarios\Index.cshtml.g.cs
