@@ -148,5 +148,11 @@ namespace RH_.Controllers
         {
             return _context.Funcionarios.Any(e => e.MatriculaFuncionario == id);
         }
+
+        public async Task<IActionResult> List()
+        {
+            return View(await _context.Funcionarios.ToListAsync());
+        }
+
     }
 }
