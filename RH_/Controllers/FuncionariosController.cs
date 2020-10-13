@@ -2,9 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AspNetCore;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Query.SqlExpressions;
+using Microsoft.EntityFrameworkCore.SqlServer.Query.Internal;
 using RH_.Models;
 
 namespace RH_.Controllers
@@ -155,20 +158,6 @@ namespace RH_.Controllers
         }
 
 
-
-        public IActionResult Aniversario()
-        {
-            var Func = _context.Funcionarios.ToList();
-
-            var aniverFunc = _context.Funcionarios.Where(f => f.DataNascimento.Contains((char)DateTime.Now.Month));
-
-            if (Func == null)
-            {
-                return NotFound();
-            }
-
-            return View(Func);
-        }
 
 
 
