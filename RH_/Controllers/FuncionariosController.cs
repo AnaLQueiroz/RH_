@@ -153,9 +153,35 @@ namespace RH_.Controllers
             return View(await _context.Funcionarios.ToListAsync());
         }
 
+        public IActionResult Aniversario()
+        {
+
+            var aniverFunc = _context.Funcionarios.FromSqlRaw("Select id,matriculafuncionario,cpf,telefone,sexo,cep,endereco,numero,complemento,bairro,cidade,uf,ativo, nome,datanascimento FROM funcionarios f WHERE DATEPART(month, f.datanascimento) = datepart(month, getdate())").ToList();
+
+      
+            if ((aniverFunc == null) )
+            {
+                return NotFound();
+            }
+
+            return View(aniverFunc);
+        }
 
 
 
+        public IActionResult AniversarioDep()
+        {
+
+            var aniverDep = _context.Dependentes.FromSqlRaw("Select id,matriculafuncionario,cpf,sexo,nome,datanascimento FROM dependentes d WHERE DATEPART(month, d.datanascimento) = datepart(month, getdate())").ToList();
+
+
+            if ((aniverDep == null))
+            {
+                return NotFound();
+            }
+
+            return View(aniverDep);
+        }
 
 
 
